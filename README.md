@@ -22,13 +22,11 @@ config-manager = {
 ```
 to your flake inputs.
 
-Next, add
+Then, add
 ```nix
 inputs.config-manager.packages.${system}.default
 ```
 to your `environment.systemPackages`.
-
-Done! you can now run the program using `config-manager`.
 
 ## Instructions   
 
